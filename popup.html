@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+		<h1 class="headline">Quick GPT</h1>
+        <input type="text" id="api-key" placeholder="Enter API Key" class="input-field">
+        <div class="button-row">
+            <button id="clear-api" class="button">Clear API Key</button>
+            <button id="restore-api" class="button">Restore API Key</button>
+        </div>
+        <textarea id="user-text" placeholder="Enter your text here" class="input-field"></textarea>
+        <button id="send" class="button">Send</button>
+        <button id="clear-text" class="button">Clear Text</button>
+        <div id="output" class="output"></div>
+        <div class="button-row">
+            <button id="clear-output" class="button">Clear Output</button>
+            <button id="restore-output" class="button">Restore Output</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
